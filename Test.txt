@@ -1,0 +1,13 @@
+
+cd('PATH_TO_YOUR_FOLDER').
+c(table).
+c(producer).
+c(consumer).
+table:start(5,'Table1').
+table:add_waiter('Lee').
+table:get_clients().
+table:add_client('Name1').
+table:add_client('Name2').
+table:add_client('Name3').
+table:get_clients().
+table:delete_client('Name1').
